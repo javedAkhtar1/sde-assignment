@@ -1,5 +1,6 @@
 const solution = require('./solution.cjs');
 // Solution modules contains the mergeTimeRanges function
+// I used cjs as my environment and node js 22 was forcing ESM.
 
 const ranges = [
   [1000, 2000],
